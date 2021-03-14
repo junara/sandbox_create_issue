@@ -7,7 +7,7 @@ jobs:
   create_hoge_issue:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@5d9504915f79f9cc6d791934b8ef34f2353dd74d
       - name: create issue by template
         uses: JasonEtco/create-an-issue@v2
         env:
